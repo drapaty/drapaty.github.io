@@ -1,83 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-US"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="utf-8">
-    <title>Dra. Patricia Yáñez | Endocrinologa</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>drapaty | Sitio Web</title>
+<meta name="generator" content="Jekyll v3.10.0">
+<meta property="og:title" content="drapaty">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Sitio Web">
+<meta property="og:description" content="Sitio Web">
+<link rel="canonical" href="https://drapaty.github.io/">
+<meta property="og:url" content="https://drapaty.github.io/">
+<meta property="og:site_name" content="drapaty">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="drapaty">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Sitio Web","headline":"drapaty","name":"drapaty","url":"https://drapaty.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
 
-    <!-- Favicon -->
-    <link href="{{ asset('theme/img/favicon.png') }}" rel="icon">
+    <style class="anchorjs"></style><link rel="stylesheet" href="/assets/css/style.css?v=54817de25d4d5b607d1ae7fe239d8dd74dd986a0">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+<!-- Setup Google Analytics -->
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="{{ asset('theme/lib/animate/animate.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('theme/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('theme/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('theme/css/bootstrap.min.css') }}" rel="stylesheet">
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
-    <!-- Template Stylesheet -->
-    <link href="{{ asset('theme/css/style.css') }}" rel="stylesheet">
-</head>
+<!-- end custom head snippets -->
 
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://drapaty.github.io/">drapaty</a></h1>
+      
+
+      <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
+<h2 id="about-laravel">About Laravel<a class="anchorjs-link " href="#about-laravel" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:</p>
+
+<ul>
+  <li><a href="https://laravel.com/docs/routing">Simple, fast routing engine</a>.</li>
+  <li><a href="https://laravel.com/docs/container">Powerful dependency injection container</a>.</li>
+  <li>Multiple back-ends for <a href="https://laravel.com/docs/session">session</a> and <a href="https://laravel.com/docs/cache">cache</a> storage.</li>
+  <li>Expressive, intuitive <a href="https://laravel.com/docs/eloquent">database ORM</a>.</li>
+  <li>Database agnostic <a href="https://laravel.com/docs/migrations">schema migrations</a>.</li>
+  <li><a href="https://laravel.com/docs/queues">Robust background job processing</a>.</li>
+  <li><a href="https://laravel.com/docs/broadcasting">Real-time event broadcasting</a>.</li>
+</ul>
+
+<p>Laravel is accessible, powerful, and provides tools required for large, robust applications.</p>
+
+<h2 id="learning-laravel">Learning Laravel<a class="anchorjs-link " href="#learning-laravel" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>Laravel has the most extensive and thorough <a href="https://laravel.com/docs">documentation</a> and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.</p>
+
+<p>You may also try the <a href="https://bootcamp.laravel.com">Laravel Bootcamp</a>, where you will be guided through building a modern Laravel application from scratch.</p>
+
+<p>If you don’t feel like reading, <a href="https://laracasts.com">Laracasts</a> can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.</p>
+
+<h2 id="laravel-sponsors">Laravel Sponsors<a class="anchorjs-link " href="#laravel-sponsors" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel <a href="https://patreon.com/taylorotwell">Patreon page</a>.</p>
+
+<h3 id="premium-partners">Premium Partners<a class="anchorjs-link " href="#premium-partners" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><strong><a href="https://vehikl.com/">Vehikl</a></strong></li>
+  <li><strong><a href="https://tighten.co">Tighten Co.</a></strong></li>
+  <li><strong><a href="https://kirschbaumdevelopment.com">Kirschbaum Development Group</a></strong></li>
+  <li><strong><a href="https://64robots.com">64 Robots</a></strong></li>
+  <li><strong><a href="https://cubettech.com">Cubet Techno Labs</a></strong></li>
+  <li><strong><a href="https://cyber-duck.co.uk">Cyber-Duck</a></strong></li>
+  <li><strong><a href="https://www.many.co.uk">Many</a></strong></li>
+  <li><strong><a href="https://www.webdock.io/en">Webdock, Fast VPS Hosting</a></strong></li>
+  <li><strong><a href="https://devsquad.com">DevSquad</a></strong></li>
+  <li><strong><a href="https://www.curotec.com/services/technologies/laravel/">Curotec</a></strong></li>
+  <li><strong><a href="https://op.gg">OP.GG</a></strong></li>
+  <li><strong><a href="https://webreinvent.com/?utm_source=laravel&amp;utm_medium=github&amp;utm_campaign=patreon-sponsors">WebReinvent</a></strong></li>
+  <li><strong><a href="https://lendio.com">Lendio</a></strong></li>
+</ul>
+
+<h2 id="contributing">Contributing<a class="anchorjs-link " href="#contributing" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the <a href="https://laravel.com/docs/contributions">Laravel documentation</a>.</p>
+
+<h2 id="code-of-conduct">Code of Conduct<a class="anchorjs-link " href="#code-of-conduct" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>In order to ensure that the Laravel community is welcoming to all, please review and abide by the <a href="https://laravel.com/docs/contributions#code-of-conduct">Code of Conduct</a>.</p>
+
+<h2 id="security-vulnerabilities">Security Vulnerabilities<a class="anchorjs-link " href="#security-vulnerabilities" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via <a href="mailto:taylor@laravel.com">taylor@laravel.com</a>. All security vulnerabilities will be promptly addressed.</p>
+
+<h2 id="license">License<a class="anchorjs-link " href="#license" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+<p>The Laravel framework is open-sourced software licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</p>
+
+
+      
     </div>
-    <!-- Spinner End -->
- 
-    <!-- Navbar Start -->
-    @include('html.menu')
-    <!-- Navbar End -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  
 
-    <!-- Carousel Start -->
-    @include('html.slider')
-    <!-- Carousel End -->
-
-    <!-- Conctat Start -->
-    @include('html.contact')
-    <!-- Contact End -->
-
-    <!-- Footer Start -->
-    @include('html.foother')
-    <!-- Footer End -->
-
-
-    <!-- Copyright Start -->
-    @include('html.copyright')
-    <!-- Copyright End -->
-
-
-    <!-- Back to Top -->
-    <a href="/" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('theme/lib/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('theme/lib/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('theme/lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('theme/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('theme/lib/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('theme/lib/parallax/parallax.min.js') }}"></script>
-    <script src="{{ asset('theme/lib/lightbox/js/lightbox.min.js') }}"></script>
-
-    <!-- Template Javascript -->
-    <script src="{{ asset('theme/js/main.js') }}"></script>
-</body>
-
-</html>
+</body></html>
