@@ -1,8 +1,83 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<!DOCTYPE html>
+<html lang="en">
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-</a>
-</p>
+<head>
+    <meta charset="utf-8">
+    <title>Dra. Patricia Yáñez | Endocrinologa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="{{ asset('theme/img/favicon.png') }}" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{{ asset('theme/lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('theme/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('theme/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{ asset('theme/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{{ asset('theme/css/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+ 
+    <!-- Navbar Start -->
+    @include('html.menu')
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    @include('html.slider')
+    <!-- Carousel End -->
+
+    <!-- Conctat Start -->
+    @include('html.contact')
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    @include('html.foother')
+    <!-- Footer End -->
 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    <!-- Copyright Start -->
+    @include('html.copyright')
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="/" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('theme/lib/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('theme/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('theme/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('theme/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('theme/lib/counterup/counterup.min.js') }}"></script>
+    <script src="{{ asset('theme/lib/parallax/parallax.min.js') }}"></script>
+    <script src="{{ asset('theme/lib/lightbox/js/lightbox.min.js') }}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{{ asset('theme/js/main.js') }}"></script>
+</body>
+
+</html>
